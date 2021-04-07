@@ -69,9 +69,11 @@
   <ItemGroup>
     <Content Include="contact.htm" />
     <Content Include="images\mountSimple.jpg" />
+    <Content Include="JavaScript.js" />
     <Content Include="mainSite.htm" />
     <Content Include="resume.htm" />
     <Content Include="styles\MainStyle.css" />
+    <Content Include="Sudoku.htm" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

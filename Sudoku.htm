@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Richard Tabaka</title>
+    <script src="JavaScript.js" type="text/javascript"></script>
+    <link href="/styles/MainStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="/mainSite.htm">Home Page</a>
+            <a href="resume.htm">Resume</a>
+            <a href="contact.htm">Contact Me</a>
+            <a href="Sudoku.htm">Sudoku Solver</a>
+        </div>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Sudoku Solver Web App</h1>
+
+            <p>Currently, this puzzle takes a Sudoku in the form of 81 characters, 0-9, converts them to an array of arrays in JavaScript, solves the puzzle, and displays the solution in an alert.<br/><br/>I would like to create a table of inputs so it's a little more intuitive for the user. Then, it would display the solution in a table on the page itself instead of in an alert. For now, though, this was mind-melting enough.</p>
+            <p>If you would like to test it and don't feel like converting a whole puzzle to a string with 0's representing the empty sqaures, here are some sample puzzles:<br /><br />800000000003600000070090200050007000000045700000100030001000068008500010090000400<br /><br />780400120600075009000601078007040260001050930904060005070300012120007400049206007<br/><br/>000260701680070090190004500820100040004602900050003028009300074040050036703018000</p>
+        </header>
+        <body>
+            <p>Input your puzzle here:</p>
+            <input id="puzzle" name="puzzle" type="text" maxlength="81" />
+            <button onclick="createPuzzle()">Solve!</button>
+        </body>
+        
+        
+    </div>
+    <footer>
+        <nav>
+            <div class="footerContainer">
+                <a>(239)898-3665</a>
+                <a>Richard.Tabaka@Outlook.com</a>
+                <a href="contact.htm">Contact Me</a>
+                <a href="https://github.com/RichardTabaka">GitHub</a>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
